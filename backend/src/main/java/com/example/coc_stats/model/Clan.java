@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Clan {
+    private String tag;
     private String name;
     private String type;
     private String description;
@@ -18,6 +19,5 @@ public class Clan {
     private String warFrequency;
     private int warWinStreak;
     private int warWins;
-    private int warTies;
-    private int warLosses;
+    private int members;
 }

@@ -19,8 +19,8 @@ public class Player {
     private int attackWins;
     private int defenseWins;
     private int builderHallLevel;
-    private int builderHallTrophies;
-    private int builderHallBaseTrophies;
+    private int builderBaseTrophies;
+    private int bestBuilderBaseTrophies;
     private BuilderLeague builderBaseLeague;
     private String role;
     
